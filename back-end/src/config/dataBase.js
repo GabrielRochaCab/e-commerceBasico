@@ -15,3 +15,5 @@ connection.connect((err) =>{
         console.log("Conectado ao Banco de dados!")
     }
 })
+
+module.exports = connection;
